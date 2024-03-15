@@ -3,7 +3,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int size;
+int size,source;
 vector<int> bfs(vector<vector<int>> &a,int n,vector<int> &visited)
 {
     queue<int> Queue;
